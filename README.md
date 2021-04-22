@@ -1,4 +1,4 @@
-# dependencyCheckerParser
+# DependencyCheckParser
 
 Python script to filter and sort the OWASP Dependency Checker JSON output. 
 
