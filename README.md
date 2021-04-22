@@ -2,17 +2,17 @@
 
 Python script to filter and sort the OWASP Dependency Checker JSON output. 
 
-# Example:
+Example:
+```
+python DepChecker_parser.py -i DepChecker_output_SAMPLE.json
 
-# python DepChecker_parser.py -i DepChecker_output_SAMPLE.json
-
-# required argument:
-#   --input INPUT, -i INPUT     Path to input OWASP Dependency Checker JSON file to parse.
-# optional arguments:
-#   -h, --help                  Show this help message and exit
-#   --filter, -f                Filter and sort
-#   --summary, -s               Provide findings summary
-
+required argument:
+ --input INPUT, -i INPUT     Path to input OWASP Dependency Checker JSON file to parse.
+optional arguments:
+-h, --help                  Show this help message and exit
+--filter, -f                Filter and sort
+--summary, -s               Provide findings summary
+```
 
 The JSON data is filtered (vulnerability name, severity and file names) and sorted by severity.
 
